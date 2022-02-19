@@ -1,5 +1,28 @@
 {
+  "name": "ying-yang productions",
+  "version": "1.0.0",
+  "description": "app to create team profile generator for ying-yang productions ",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanyaleepr/ying-yang-productions.git"
+  },
+  "author": "Tanya Gonzalez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanyaleepr/ying-yang-productions/issues"
+  },
+  "homepage": "https://github.com/tanyaleepr/ying-yang-productions",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
   "dependencies": {
-    "inquirer": "^8.2.0"
+    "inquirer": "^7.3.3"
   }
 }
