@@ -1,7 +1,7 @@
 {
-  "name": "ying-yang productions",
+  "name": "ying-yang-productions",
   "version": "1.0.0",
-  "description": "app to create team profile generator for ying-yang productions ",
+  "description": "app to create team profile generator for ying-yang-productions ",
   "main": "index.js",
   "directories": {
     "lib": "lib"
