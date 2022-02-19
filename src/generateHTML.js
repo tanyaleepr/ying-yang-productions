@@ -122,7 +122,7 @@ const generateTeamPage = function (employeeCards) {
     <main>
         <div class="container">
             <div class="row justify-content-center" id="team-cards">
-                <!--Team Cards-->
+              
                 ${employeeCards}
             </div>
         </div>

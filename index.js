@@ -1,10 +1,10 @@
 // this const links to the html version
-const generateHTML = require('../src/generateHTML.js');
+const generateHTML = require('./src/generateHTML.js');
 
 // the profiles for the team
-const Manager = require('../lib/Manager.js');
-const Engineer = require('../lib/Engineer.js');
-const Intern = require('../lib/Intern.js'); 
+const Manager = require('./lib/Manager.js');
+const Engineer = require('./lib/Engineer.js');
+const Intern = require('./lib/Intern.js'); 
 
 // node package
 const fs = require('fs'); 
@@ -196,7 +196,7 @@ const addEmployee = () => {
 
 // generateHTML.js : 
 const writeFile = data => {
-    fs.writeFile('../dist/index.html', data, err => {
+    fs.writeFile('./dist/index.html', data, err => {
 
         if (err) {
             console.log(err);
