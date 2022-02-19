@@ -91,3 +91,50 @@ generateHTML = (data) => {
         }
         
     }
+
+    // join string
+    const employeeCards = pageArray.join('')
+
+    // return to generateHTML page
+    const generateTeam = generateTeamPage(employeeCards); 
+    return generateTeam;
+
+}
+
+// generate html page 
+const generateTeamPage = function (employeeCards) {   
+    return`
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Complete Team Profile</title>
+        <link href="../dist/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+    <header>
+        <nav class="navbar" id="navbar">
+            <span class="navbar-brand mb-0 h1 w-100 text-center" id="navbar-text"> Complete Team Profile</span>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row justify-content-center" id="team-cards">
+                <!--Team Cards-->
+                ${employeeCards}
+            </div>
+        </div>
+        </main>
+      
+        </body>
+
+
+        
+        </html>
+      `;
+      }
+
+      // export to index
+module.exports = generateHTML; 
