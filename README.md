@@ -30,7 +30,7 @@ This project is covered under the following license:
 Contributors are welcomed! 
 <a name="tests"></a>
 ## Tests
-Run npm test and Node index.
+Run npm test and Node index or see the video below. [Click here to see the tutorial](https://drive.google.com/file/d/1NwhEbFX6hJ20J9yJw-Nf7iPd1qsit7Nf/view).
 <a name="questions"></a>
 ## Questions
 If you have any questions, feel free to reach out at: [GitHub](https://github.com/tanyaleepr) or <tanyaleepr@gmail.com>
