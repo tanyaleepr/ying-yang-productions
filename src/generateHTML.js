@@ -138,34 +138,6 @@ const generateTeamPage = function (employeeCards) {
     </html>
   `;
   }
-  
-  // export to index
-  module.exports = generateHTML; 
-  
-    </head>
 
-    <body>
-    <header>
-        <nav class="navbar" id="navbar">
-            <span class="navbar-brand mb-0 h1 w-100 text-center" id="navbar-text"> Complete Team Profile</span>
-        </nav>
-    </header>
-    <main>
-        <div class="container">
-            <div class="row justify-content-center" id="team-cards">
-              
-                ${employeeCards}
-            </div>
-        </div>
-        </main>
-      
-        </body>
-
-
-        
-        </html>
-      `;
-      }
-
-      // export to index
+ 
 module.exports = generateHTML; 
